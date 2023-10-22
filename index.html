@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table {
+      font-family: Arial, sans-serif;
+      color: white;
+      border-collapse: collapse;
+      width: 75%;
+    }
+    .center1{ 
+        margin: 200px;    
+    }
+    th, td {
+      border: 10px outset rgb(53, 93, 138);
+      text-align: center;
+      padding: 8px;
+    }
+    th {
+      background-color: #5e97ec;
+    }
+    td{
+        background-color: #577bb1;
+    }
+    .delivered {
+      background-color: green;
+      color: white;
+      padding: 6px 12px;
+      border: none;
+      border-radius: 4px;
+    }
+    .pending {
+      background-color: rgb(190, 190, 33);
+      color: white;
+      padding: 6px 12px;
+      border: none;
+      border-radius: 4px;
+    }
+    .canceled {
+      background-color: red;
+      color: white;
+      padding: 6px 12px;
+      border: none;
+      border-radius: 4px;
+    }
+  </style>
+  </head>
+  <body>
+   <table class="center1">
+    <tr>
+      <th>Ürün Adı</th>
+      <th>Adet</th>
+      <th>Fiyat</th>
+      <th>Toplam</th>
+      <th>Durum</th>
+    </tr>
+    <tr>
+      <td>Kalem</td>
+      <td>2</td>
+      <td>5 TL</td>
+      <td>10 TL</td>
+      <td><button class="delivered">Teslim Edildi</button></td>
+    </tr>
+    <tr>
+      <td>Defter</td>
+      <td>3</td>
+      <td>10 TL</td>
+      <td>30 TL</td>
+      <td><button class="pending">Beklemede</button></td>
+    </tr>
+    <tr>
+        <td>Kitap</td>
+        <td>5</td>
+        <td>60 TL</td>
+        <td>300 TL</td>
+        <td><button class="canceled">Teslim Edilemedi</button></td>
+    </tr>
+    <tr>
+        <td>Silgi</td>
+        <td>4</td>
+        <td>10 TL</td>
+        <td>40 TL</td>
+        <td><button class="pending">Beklemede</button></td>
+    </tr>
+    <tr>
+        <td>Kalem Tıraş</td>
+        <td>3</td>
+        <td>10 TL</td>
+        <td>30 TL</td>
+        <td><button class="pending">Beklemede</button></td>
+    </tr>
+    <tr>
+        <td>Çanta</td>
+        <td>7</td>
+        <td>100 TL</td>
+        <td>700 TL</td>
+        <td><button class="delivered">Teslim Edildi</button></td>
+    </tr>
+    <tr>
+        <td>Kağıt</td>
+        <td>5</td>
+        <td>2 TL</td>
+        <td>10 TL</td>
+        <td><button class="canceled">Teslim Edilemedi</button></td>
+    </tr>
+   </table> 
+  </body>
+</html>
